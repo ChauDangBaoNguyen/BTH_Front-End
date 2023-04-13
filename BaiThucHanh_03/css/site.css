@@ -1,0 +1,202 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.top{
+    background-image: url(/BaiThucHanh_03/images/background.png);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 130px;
+}
+.upper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.options-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.options-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    text-align: center;
+}
+.section-1{
+    background-color: #011c38;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+}
+.section-1 .contain .image{
+    margin-top: 20px;
+    
+}
+.section-1 .contain{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.sign-up{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: 3%;
+}
+.form{    
+    display: flex;
+    flex-direction:column;
+}
+.form-line{
+    display: flex;
+    flex-direction: row;
+    background-color:#05386e;
+}
+.button{
+    text-align: center;
+    color: red;
+    border: red solid 2px;
+    margin-top: 10px ;
+    margin-left: 75%;
+    padding: 0;   
+}
+input[type="text"]{
+    background-color: #05386e;
+    width: 300px;
+    height: 20px;
+}
+input[type="email"]{
+    background-color: #05386e;
+    width: 300px;
+    height: 20px;
+}
+input[type="tel"]{
+    background-color: #05386e;
+    width: 300px;
+    height: 20px;
+}
+.section-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.section-2 .news .heading-1{ 
+    border-bottom: grey solid 1px;
+}
+.section-2 .news .heading-2{ 
+    border-bottom: grey solid 1px;
+}
+.section-2 .news .heading-3{ 
+    border-bottom: grey solid 1px;
+}
+.section-2 .events{
+    margin-left: 5%;
+}
+.section-2 .missions{
+    margin-left: 10%;
+}
+.section-3{
+    background-color: #011c38;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.section-4{
+    display: flex;
+    flex-direction: row;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    
+}
+.profile-1 {
+    display: flex;
+    flex-direction: row;
+    border: gray solid 1px;
+    font-size: 14px;
+    align-items: center;
+    justify-content: left;
+    padding: 2px 10px 2px 5px;
+}
+.profile-2 {
+    display: flex;
+    flex-direction: row;
+    border: gray solid 1px;
+    margin-top: 1%;
+    font-size: 14px;
+    align-items: center;
+    justify-content: left;
+    padding: 2px 10px 2px 5px;
+}
+.profile-1 .text{
+    margin-left: 10px;
+}
+.profile-2 .text{
+    margin-left: 10px;
+}
+.gallery{
+    margin-left: 5%;
+}
+.bottom{
+    color: white;
+    background-image: url(/BaiThucHanh_03/images/background.png);
+    display: flex;
+    flex-direction: row;
+}
+.info{
+    margin-left: 5%;
+}
+.links{
+    margin-left: 10%;
+}
+.intro{
+    margin-left: 20%;
+    margin-right: 5%;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.copyright{
+    display: flex;
+    background-color:#011c38;
+    height: 30px;
+    color: white;
+    text-align: left;
+    align-items: center;
+}
+
+
+
